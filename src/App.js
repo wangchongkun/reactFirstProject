@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import {Globalstyle} from './style.js';
 import { IconfontStyle } from './statics/iconfont/iconfont.js';
+import 'antd/dist/antd.css';
 
 class App extends Component {
     render() {
