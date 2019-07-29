@@ -19,6 +19,19 @@ import {
 } from './style';
 class Header extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            isOptional: '1',
+            files: {
+                name: '1',
+                id: 'name',
+                age: '16',
+                sex: '女'
+            }
+        }
+    }
+
     getListArea(){
         const { focused, list, page, totalPage, mouseIn, handleMouseEnter, handleMouseLeave, handleChangePage } = this.props;
         const newList = list.toJS();
@@ -58,7 +71,9 @@ class Header extends Component {
     }
 
     render() {
-        const { focused, handleInputFocus, handleInputBlur } = this.props;
+        const { focused, handleInputFocus, handleInputBlur, list } = this.props;
+        console.log(this.state.files);
+        
         return (
             <HeaderWrapper>
                 {/* <Logo href='./' /> */}
@@ -78,7 +93,7 @@ class Header extends Component {
                         >
                             <NavSearch
                                 className={focused ? 'focused' : ''}
-                                onFocus={handleInputFocus}
+                                onFocus={() => handleInputFocus(list)}
                                 onBlur={handleInputBlur}
                             ></NavSearch>
                         </CSSTransition>
@@ -110,8 +125,9 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
     return {
-        handleInputFocus() {
-            dispatch(actionCreators.getList());
+        handleInputFocus(list) {
+            console.log(list);
+            (list.size === 0) && dispatch(actionCreators.getList());
             dispatch(actionCreators.searchFocus());
         },
         handleInputBlur() {
