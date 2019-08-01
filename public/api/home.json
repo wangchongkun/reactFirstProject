@@ -1,0 +1,58 @@
+{
+    "success": true,
+    "data": {
+        "topicList": [{
+            "id": 1,
+            "title": "社会热点",
+            "imgUrl": "//upload.jianshu.io/users/upload_avatars/5205317/1179d71b-e7c6-4023-89e8-bba25f88272b.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        },{
+            "id": 2,
+            "title": "手绘",
+            "imgUrl": "//upload.jianshu.io/users/upload_avatars/2558050/7761b285-2805-4534-9870-ba7dcc7538ec.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180"
+        }],
+        "articleList": [{
+            "id": 1,
+            "title": "Python IDE之 pycharm的十大技巧",
+            "desc": "说到Python的IDE，可能大家都会想到一个非常有名的工具，就是pycharm，他是最受欢迎的一个Python开发工具，其原因就是因为功能强大...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/83636-568aea6100830b8a.jpg?imageMogr2/auto-orient/strip|imageView2"
+        },{
+            "id": 2,
+            "title": "Android Studio3.3你了解多少？",
+            "desc": "转载请注明出处：https://www.jianshu.com/p/d5e7f262a934 Android Studio更新 Android ...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/3258163-6c60f9860c495faa.png?imageMogr2/auto-orient/strip|imageView2"
+        },{
+            "id": 3,
+            "title": "Python模块PyQt：个性化登录界面模仿QQ登录",
+            "desc": "写在前面 写了一个登录界面的demo，类似QQ的，写的自己喜欢的样式，贴一下代码，先上效果，如下 陈述 PyQt5+Python3.5.2 学习...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/83636-568aea6100830b8a.jpg?imageMogr2/auto-orient/strip|imageView2"
+        },{
+            "id": 4,
+            "title": "Python IDE之 pycharm的十大技巧",
+            "desc": "说到Python的IDE，可能大家都会想到一个非常有名的工具，就是pycharm，他是最受欢迎的一个Python开发工具，其原因就是因为功能强大...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/83636-568aea6100830b8a.jpg?imageMogr2/auto-orient/strip|imageView2"
+        },{
+            "id": 5,
+            "title": "Python IDE之 pycharm的十大技巧",
+            "desc": "说到Python的IDE，可能大家都会想到一个非常有名的工具，就是pycharm，他是最受欢迎的一个Python开发工具，其原因就是因为功能强大...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/83636-568aea6100830b8a.jpg?imageMogr2/auto-orient/strip|imageView2"
+        },{
+            "id": 6,
+            "title": "Python IDE之 pycharm的十大技巧",
+            "desc": "说到Python的IDE，可能大家都会想到一个非常有名的工具，就是pycharm，他是最受欢迎的一个Python开发工具，其原因就是因为功能强大...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/83636-568aea6100830b8a.jpg?imageMogr2/auto-orient/strip|imageView2"
+        }],
+        "recommendList": [{
+            "id": 1,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+        },{
+            "id": 2,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+        },{
+            "id": 3,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+        },{
+            "id": 4,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+        }]
+    }
+}
